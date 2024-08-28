@@ -1,0 +1,13 @@
+server {
+    listen 8888;
+    # server_name localhost;
+    server_name 0.0.0.0;
+
+    access_log /var/log/nginx/lighthouse-access.log;
+
+    location / {
+        root /home/ubuntu/lighthouse/;
+        index index.html;
+
+    }
+}

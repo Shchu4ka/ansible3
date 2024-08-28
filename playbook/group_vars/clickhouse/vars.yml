@@ -1,0 +1,9 @@
+---
+workdir: "/home/ubuntu"
+clickhouse_version: "24.4.1.2088"
+clickhouse_packages:
+  - clickhouse-client
+  - clickhouse-server
+  - clickhouse-common-static
+
+vector_version: "0.38.0"
